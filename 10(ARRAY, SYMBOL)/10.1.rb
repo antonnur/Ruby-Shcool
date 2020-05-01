@@ -40,7 +40,7 @@ puts "Пример 4:"
 arr = ["walt", "hank", "jr", "jessie", "lidia"]
 
 x = 0
-arr.each do |name|
+arr.each do |name|		# можно замени на each_with_index
     puts "#{x} #{name}"
     x = x + 1
 end

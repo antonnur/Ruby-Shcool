@@ -17,7 +17,7 @@ loop do            # аналагично while true
 end
 
 x = 0
-arr.each do |name|
+arr.each do |name|      # можно замени на each_with_index
     x += 1
     puts "#{x}. #{name}"
 end

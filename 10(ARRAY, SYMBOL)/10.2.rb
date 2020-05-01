@@ -6,7 +6,7 @@ puts "Пример 1:"
 arr = %w[walt hank jr jessie lidia]
 a = "Y"
 x = 0
-arr.each do |name|
+arr.each do |name|      # можно замени на each_with_index
     x += 1
     puts "#{x}. #{name}"
 end
@@ -27,7 +27,7 @@ arr = %w[walt hank jr jessie lidia]
 
 loop do
     x = 0
-    arr.each do |name|
+    arr.each do |name|      # можно замени на each_with_index
         x += 1
         puts "#{x}. #{name}"
     end

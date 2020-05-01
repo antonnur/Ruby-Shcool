@@ -21,7 +21,7 @@ loop do            # аналагично while true
 end
 
 x = 0
-arr.each do |item|
+arr.each do |item|      # можно замени на each_with_index
     x += 1
     puts "#{x}. #{item[0]} #{item[1]}"
 end
